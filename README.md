@@ -21,8 +21,24 @@ the root domain.
 git init -b main
 git add .
 git commit -m "Add personal site"
-git remote add origin https://github.com/jahid230/jahid230.github.io.git
+git remote add origin git@github.com:jahid230/jahid230.github.io.git
 git push -u origin main
+```
+
+Later updates:
+
+```bash
+git add index.html
+git commit -m "Update contact details"
+git push
+```
+
+If the remote was already added over HTTPS, switch it to SSH:
+
+```bash
+git remote set-url origin git@github.com:jahid230/jahid230.github.io.git
+git remote -v          # confirm
+ssh -T git@github.com  # should greet you as jahid230
 ```
 
 Then in the repository: **Settings → Pages → Build and deployment → Source: Deploy from a

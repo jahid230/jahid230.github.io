@@ -331,7 +331,7 @@ footer.page{
     <div class="namecard">
       <span class="id">Cottbus, Brandenburg · open to work</span>
       <h1>Md Jahidul Haque<span class="cursor" aria-hidden="true"></span></h1>
-      <p class="role"><strong>Backend &amp; Data Engineer</strong> — JVM, Spark/Scala, AWS, Kubernetes.<br>Co-founder and technical lead of <strong>Bakbakum</strong> — clinical AI, real-time voice, knowledge graphs.</p>
+      <p class="role"><strong>Backend &amp; Data Engineer</strong> — JVM, Spark/Scala, AWS, Kubernetes.<br>Co-founder and technical lead of <strong>Bakbakum</strong> (in Gründung) — clinical AI, real-time voice, knowledge graphs.</p>
     </div>
 
     <nav class="nav" aria-label="Sections">
@@ -363,7 +363,7 @@ footer.page{
       <dl class="sheet" style="margin-top:1.6rem">
         <dt>Based</dt><dd><b>Cottbus, Germany</b> — remote or nationwide, willing to relocate</dd>
         <dt>Looking for</dt><dd>Backend &amp; data platform roles — JVM, Scala/Spark, cloud-native</dd>
-        <dt>Eligibility</dt><dd>Eligible to work in Germany</dd>
+        <dt>Eligibility</dt><dd><b>EU Blue Card holder 2022–2025</b> — eligible for a Blue Card on a qualified offer. Available immediately.</dd>
         <dt>Languages</dt><dd>English <b>C1</b> · Deutsch <b>A2</b> · Bengali (native)</dd>
         <dt>Certification</dt><dd>NASSCOM SSC (SSC/Q0501) — Java Application Development</dd>
       </dl>
@@ -376,36 +376,35 @@ footer.page{
         <article class="entry">
           <div class="when">Jan 2026 — present<span class="place">Cottbus / Berlin, DE</span></div>
           <div class="what">
-            <h3><span class="org">Bakbakum</span><span class="sep">/</span><span class="titlerole">Co-founder — technical engineering</span></h3>
+            <h3><span class="org">Bakbakum</span> <span style="font-weight:400;color:var(--text-faint);font-size:var(--step--1)">(in Gründung)</span><span class="sep">/</span><span class="titlerole">Co-founder — technical engineering</span></h3>
             <ul class="bullets">
-              <li>Clinically controlled speech rehabilitation, executed in real time on-device: speech-language pathologists author a structured care plan, and families run it at home between clinic visits.</li>
-              <li>My role in the team is the technical engineering — architecture and implementation across the child-facing app, the clinical backend, the real-time voice runtime, deployment, and EU data-protection documentation.</li>
-              <li>Supported by the Gründungsservice of BTU Cottbus-Senftenberg; running a limited clinical pilot with partner practices.</li>
+              <li><b>Own the entire technical surface</b> — five deployable units in production: a Flutter child-facing app, a Django clinical system of record (patients, care plans, consent, session outcomes), a FastAPI real-time voice service, and React consoles for therapists and platform operators, over MySQL and a graph store, containerised behind nginx.</li>
+              <li><b>Turned the therapist's plan into something a machine can execute</b> — a typed clinical specification (target phonemes, word position, difficulty tier, clinical approach) that drives practice content, speech scoring and the character's spoken response, with runtime behaviour routed differently for cochlear-implant and speech-sound-disorder children. Session outcomes flow back to the dashboard for the next cycle.</li>
+              <li><b>Made it deployable into a real clinic</b> — EU-resident infrastructure (migrated Singapore → Frankfurt), the regulated-software work an MDR Class I device needs (<b>ISO 14971</b> hazard analysis, <b>IEC 62304</b> lifecycle, <b>IEC 62366-1</b> usability testing in partner practices), GDPR/DPIA and a full audit of every outbound audio path.</li>
             </ul>
           </div>
         </article>
 
         <article class="entry">
-          <div class="when">Jun 2022 — Dec 2025<span class="place">Düsseldorf, DE</span></div>
+          <div class="when">Jun 2022 — Nov 2025<span class="place">Düsseldorf, DE</span></div>
           <div class="what">
-            <h3><span class="org">Experian</span><span class="sep">/</span><span class="titlerole">Software Engineer, Data &amp; Backend</span></h3>
+            <h3><span class="org">Experian</span><span class="sep">/</span><span class="titlerole">Junior Software Engineer — Data &amp; Backend</span></h3>
             <ul class="bullets">
               <li>Designed and built scalable data pipelines in <b>Spark SQL (Scala)</b> handling high-volume ingestion of roughly <b>2 TB daily</b>, fronted by low-latency Spring Boot services.</li>
               <li>Integrated data-provider sources into the in-house pipeline; contributed to an <b>Airflow</b> (Python) project backing a highly available risk-management solution.</li>
-              <li>Took ownership of Java microservices and batch applications for data management (Spring Boot, PostgreSQL, HBase), refactoring the legacy application so it could scale.</li>
-              <li>Ran performance analysis of <b>HBase vs. PostgreSQL</b> and implemented the resulting scalable solutions.</li>
+              <li>Took ownership of Java microservices and batch applications for data management (Spring Boot, MS SQL Server, HBase), refactoring the legacy application so it could scale.</li>
               <li>Built near-real-time messaging over high-frequency events with <b>Apache Kafka</b>; delivered a functional test library in Cucumber (DSL &amp; Java) and JUnit 5 for integration testing of Kafka-enabled Spark pipelines.</li>
-              <li>CI/CD in Jenkins, Helm, Kubernetes and Docker, with Bash, Groovy and YAML for containerised deployment.</li>
+              <li>CI/CD in Jenkins, Helm, Kubernetes and Docker, with Bash, Groovy and YAML for containerised deployment; Okta OAuth2/OIDC, PKI and JVM performance tuning (G1GC).</li>
             </ul>
           </div>
         </article>
 
         <article class="entry">
-          <div class="when">Apr 2021 — Dec 2021<span class="place">Erlangen, DE</span></div>
+          <div class="when">Apr 2021 — Sep 2021<span class="place">Erlangen, DE</span></div>
           <div class="what">
-            <h3><span class="org">Siemens</span><span class="sep">/</span><span class="titlerole">Student Software Developer, Data Analytics Lab</span></h3>
+            <h3><span class="org">Siemens</span><span class="sep">/</span><span class="titlerole">Werkstudent, Software Development — IT</span></h3>
             <ul class="bullets">
-              <li>Built a <b>Terraform</b> infrastructure-as-code project for an AWS Lambda-based data management application, with AWS Cognito authentication and role-based access through API Gateway.</li>
+              <li>Modified and extended <b>Terraform</b> scripts provisioning AWS infrastructure with a focus on API Gateway, and built an event-driven AWS stack for automated e-mail dispatch.</li>
             </ul>
           </div>
         </article>
@@ -423,7 +422,7 @@ footer.page{
         <article class="entry">
           <div class="when">Feb 2020 — Aug 2020<span class="place">Erlangen, DE</span></div>
           <div class="what">
-            <h3><span class="org">Fraunhofer IIS</span><span class="sep">/</span><span class="titlerole">Research Assistant — JPEG-XS</span></h3>
+            <h3><span class="org">Fraunhofer IIS</span><span class="sep">/</span><span class="titlerole">Graduate Assistant — »Digital Cinema«, JPEG-XS on GPU</span></h3>
             <ul class="bullets">
               <li>C++ / <b>CUDA</b> work on JPEG-XS image coding for GPU parallel computing in video streaming applications, optimised for a <b>1,064-GPU cluster</b> and verified for functional correctness alongside performance.</li>
             </ul>
@@ -435,7 +434,7 @@ footer.page{
           <div class="what">
             <h3><span class="org">North South University</span><span class="sep">/</span><span class="titlerole">Research Assistant &amp; Software Developer</span></h3>
             <ul class="bullets">
-              <li><b>Research Assistant</b>, Dept. of Mathematics &amp; Physics (2016–2018): parallel computing on GPU in CUDA C across computational fluid dynamics problems — two international journal papers and two conference papers.</li>
+              <li><b>Research Assistant</b>, Dept. of Mathematics &amp; Physics (2016–2018): CUDA C parallel programming in the CFD lab under the NSU Faculty Grant 2016–2018 — 3D turbulent-flow simulation and visualisation, Linux HPC environment. Two international journal papers and two conference papers.</li>
               <li><b>Software Developer</b>, IT Department (2015–2016): co-developer of the university's Online Advising System and Online Faculty Grading System — REST APIs with validation and approval workflows in Java (JSP) and Hibernate.</li>
               <li>Implemented secure SOAP integration with third-party payment systems using CA-issued certificates (PKI), unifying payment under mTLS authentication.</li>
             </ul>
@@ -450,12 +449,12 @@ footer.page{
       <div class="feature">
         <div class="head">
           <span class="title">Bakbakum</span>
-          <span class="sub">Paediatric speech &amp; listening rehabilitation · active development, limited clinical pilot</span>
+          <span class="sub">Paediatric speech &amp; listening rehabilitation · in Gründung · active development, limited clinical pilot</span>
         </div>
         <div class="inner">
           <p class="first">A therapist-controlled, parent-implemented platform for children with speech sound disorders and for cochlear-implant recipients in post-implant rehabilitation. One principle runs through it: the clinician authors the plan, the system executes it at home.</p>
           <p>A speech-language pathologist writes a structured care plan in a clinician dashboard. At home, the child practises with a friendly character through short, playful spoken exercises that weave the therapist's target words into the conversation. What happened in the session goes back to the therapist, who adjusts the plan for the next cycle.</p>
-          <p>I left Experian at the end of 2025 and have worked on this full time since January 2026 as co-founder. My role in the team is the technical engineering: I own the architecture and the implementation across the child-facing app, the clinical system of record, the real-time speech runtime, and the EU data-protection work that a paediatric health product needs before it can touch a real clinic.</p>
+          <p>I left Experian at the end of 2025 and have been building it full time since January 2026 as co-founder; the company is pre-incorporation and pre-revenue. My role in the team is the technical engineering: I own the architecture and the implementation across the child-facing app, the clinical system of record, the real-time speech runtime, and the EU data-protection work that a paediatric health product needs before it can touch a real clinic.</p>
 
           <div class="marks">
             <span class="mlabel">External validation</span>
@@ -522,6 +521,13 @@ footer.page{
           </div>
         </div>
         <div class="cell">
+          <h3>Regulated software</h3>
+          <div class="chips">
+            <span class="pri">EU MDR (Class I)</span><span class="pri">ISO 14971</span><span class="pri">IEC 62304</span>
+            <span>IEC 62366-1</span><span>GDPR / DPIA</span>
+          </div>
+        </div>
+        <div class="cell">
           <h3>Quality &amp; practice</h3>
           <div class="chips">
             <span>JUnit 5</span><span>Cucumber (DSL)</span><span>SonarQube</span><span>Veracode</span>
@@ -581,9 +587,9 @@ footer.page{
           </div>
         </article>
         <article class="entry">
-          <div class="when">May 2010 — Mar 2015<span class="place">Dhaka, Bangladesh</span></div>
+          <div class="when">2010 — 2015<span class="place">Dhaka, Bangladesh · conferred Feb 2016</span></div>
           <div class="what">
-            <h3><span class="org">B.Sc. Computer Science</span><span class="sep">/</span><span class="titlerole">North South University</span></h3>
+            <h3><span class="org">B.Sc. Computer Science &amp; Engineering</span><span class="sep">/</span><span class="titlerole">North South University</span></h3>
             <ul class="bullets">
               <li><b>Thesis:</b> tour-guiding application (Laravel 5 / Python) using sentiment analysis.</li>
             </ul>

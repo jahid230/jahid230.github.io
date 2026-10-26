@@ -1,7 +1,7 @@
 # jahid230.github.io
 
-Personal site of **Md Jahidul Haque** — backend & data engineer (JVM, Spark/Scala, AWS, Kubernetes),
-co-founder and technical lead of Bakbakum.
+Personal site of **Md Jahidul Haque** — ML platform & data engineer (Spark/Scala, JVM, AWS, Kubernetes);
+M.Sc. thesis on legal knowledge graphs; passion project Bakbakum.
 
 Live: <https://jahid230.github.io>
 
